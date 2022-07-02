@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #f6e0b8;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1627834377411-8da5f4f09de8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1901&q=80);
+  padding-top: 5rem;
+  padding-left: 5rem;
+  object-fit: cover;
+  background-position: center center;
+}
+
+.header-text h1 {
+  color: #a0a5a8;
+  font-size: 3rem;
+  padding-right: 2rem;
+  text-transform: uppercase;
+  font-family: "Splash", cursive;
+}
+
+.header-text p {
+  font-size: 2.5rem;
+  color: #ac7a45;
+  margin-top: 2rem;
+}
+
+.header-text {
+  background-color: #363a3b;
+  height: 500px;
+  width: 800px;
+  border: 4px solid #b57400;
+  padding-top: 5rem;
+  padding-left: 5rem;
+  border-radius: 30px;
+}
+
+.product-section {
+  padding: 40px 0;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.product-section h2 {
+  font-size: 4rem;
+  color: #8a594b;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.cardcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+
+.card {
+  width: 320px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+  padding: 40px 20px;
+  border-radius: 32px 5px 32px 5px;
+  text-align: center;
+}
+
+.card h4 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.card i {
+  margin-bottom: 10px;
+  font-size: 48px;
+  color: darkgoldenrod;
+}
+
+.card p {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.card-header {
+}
+
+.card-body {
+}
+
+.icon {
+}
+
+.card-footer {
+}
+
+.fa-solid {
+  height: 48px;
+}
+
+.hola {
+  border: none;
+  padding: 12px 36px;
+  width: 100%;
+  border-radius: 9000px;
+  color: #8a594b;
+  background-color: orange;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
